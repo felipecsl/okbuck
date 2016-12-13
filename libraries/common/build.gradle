@@ -20,6 +20,7 @@ android {
 dependencies {
     compile deps.support.appCompat
     compile project(':libraries:parcelable')
+    compile 'com.android.support:percent:25.0.0'
 
     testCompile deps.test.junit
     testCompile project(':libraries:robolectric-base')
